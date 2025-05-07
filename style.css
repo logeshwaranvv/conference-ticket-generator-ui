@@ -64,13 +64,18 @@ body {
 }
 .pattern-image-1 {
   position: absolute;
+  height: 220px;
   right: 0px;
   top: 60px;
+  overflow: hidden;
 }
 .pattern-image-2 {
   position: absolute;
+  height: 200px;
+  width: 200px;
   left: 0px;
   bottom: 0px;
+  overflow: hidden;
 }
 
 .container {
