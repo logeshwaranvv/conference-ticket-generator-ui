@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Conference ticket generator</title>
+
+</head>
+<body>
+  <div class="bg-image">
+    <div class="pattern-image-1">
+      <img src="/assets/images/pattern-squiggly-line-top.svg" alt="">
+    </div>
+    <div class="pattern-image-2">
+      <img src="/assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="">
+    </div>
+    <div class="container">
+      <div class="head">
+        <img src="./assets/images/logo-full.svg" alt="conf" class="conf-logo">
+      </div>
+      <div class="form-head">
+        <h1>Your Journey to Coding Conf 2026 Starts Here! </h1>
+        <p>Secure your spot at next year's biggest coding conference</p>
+      </div>
+      <form >
+      <div class="form">
+          <div class="avatar">
+            <label for="file" class="avatar-label">
+              <img id="preview" src="/assets/images/icon-upload.svg" alt="upload" class="upload-image">
+              <p>Drag and drop or click to upload</p>
+              <input type="file" accept="image/*" name="file" id="file" class="avatar-input" required>
+            </label>
+            <div class="flex">
+              <img src="/assets/images/icon-info.svg" alt="">
+              <p class="avatar-info" id="avatar-info">Upload your photo (JPG or PNG, max size: 500KB)</p>
+            </div>
+          </div>
+          <div class="name normal">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="full name" required>
+          </div>
+          <div class="email normal">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com" required>          
+          </div>
+          <div class="username normal">
+            <label for="username">GitHub Username</label>
+            <input type="text" name="username" id="username" placeholder="@yourusername" required>  
+          </div>
+          <button type="submit" value="Submit" class="generate-ticket-btn">
+            <p>Generate My Ticket</p>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+ <script src="./script.js"></script>
+</body>
+</html>
