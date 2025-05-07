@@ -42,7 +42,7 @@ document.getElementById('file').addEventListener('change', function(event) {
       const image = document.getElementById('preview');
       image.classList.remove('preview-image');
       image.classList.add('upload-image');
-      document.getElementById('preview').src = "/assets/images/icon-upload.svg";
+      document.getElementById('preview').src = "./assets/images/icon-upload.svg";
       return;
     }
 
