@@ -41,7 +41,7 @@ body {
 .bg-image {
     width: 100%;
     height: 100%;
-    background-image: url(./assets/images/background-desktop.png);
+    background-image: url('./assets/images/background-desktop.png');
     background-position: center;
     background-size: cover;
     /* overflow: hidden; */
@@ -52,13 +52,13 @@ body {
 
 @media screen and (max-width: 1000px ) {
   .bg-image{
-    background-image: url(./assets/images/background-tablet.png);
+    background-image: url('./assets/images/background-tablet.png');
     background-size: cover;
   }
 }
 @media screen and (max-width: 500px ) {
   .bg-image{
-    background-image: url(./assets/images/background-mobile.png);
+    background-image: url('./assets/images/background-mobile.png');
     background-size: cover;
   }
 }
