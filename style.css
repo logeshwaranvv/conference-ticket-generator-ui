@@ -6,19 +6,19 @@
 }
 @font-face {
   font-family: 'Inconsolata';
-  src: url('/assets/fonts/static/Inconsolata-Medium.ttf');
+  src: url('./assets/fonts/static/Inconsolata-Medium.ttf');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Inconsolata';
-  src: url('/assets/fonts/static/Inconsolata-Bold.ttf');  
+  src: url('./assets/fonts/static/Inconsolata-Bold.ttf');  
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Inconsolata';
-  src: url('/assets/fonts/static/Inconsolata-ExtraBold.ttf');  
+  src: url('./assets/fonts/static/Inconsolata-ExtraBold.ttf');  
   font-weight: 700;
   font-style: normal;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .container {
-  background: url('/assets/images/pattern-lines.svg');
+  background: url('./assets/images/pattern-lines.svg');
   width: 100%;
   height: 100%;
   max-width: 800px;
