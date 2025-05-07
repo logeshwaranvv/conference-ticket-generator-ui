@@ -93,6 +93,7 @@ body {
   flex-direction: column;
   margin: 10px;
   h1 {
+    font-family: 'Inconsolata';
     font-size: 48px;
     margin-bottom: 0px;
   }
